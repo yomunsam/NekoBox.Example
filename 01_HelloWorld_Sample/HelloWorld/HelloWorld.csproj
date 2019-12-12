@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Nekonya.Example</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NekoBox.Client" Version="4.0.1-alpha-4" />
+    <PackageReference Include="NekoBox.Http.Provider" Version="4.0.1-alpha" />
+    <PackageReference Include="NekoBox.WebSocket.Provider" Version="4.0.1-alpha-1" />
+  </ItemGroup>
+
+</Project>
